@@ -1,0 +1,24 @@
+{
+	"list" : [
+		{
+			"quote" : "Poles, take me those cannon!",
+			"speaker" : "Napoleon Bonaparte",
+			"link" : "https://youtu.be/EFLOJZoln38?t=227"
+		},
+		{
+			"quote" : "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization",
+			"speaker" : "Gerald Weinberg",
+			"link" : "https://youtu.be/EFLOJZoln38?t=227"
+		},
+		{
+			"quote" : "If",
+			"speaker" : "The Spartans",
+			"link" : "https://en.wikipedia.org/wiki/Laconic_phrase"
+		},
+		{
+			"quote" : "Oh my God. This is terrible. This is the end of my presidency. I'm fucked.",
+			"speaker" : "Donald Trump",
+			"link" : "https://www.npr.org/2019/04/18/708965026/highlights-from-the-mueller-report"
+		},
+	]
+}
