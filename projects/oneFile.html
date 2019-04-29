@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+- - - - - THIS IS ALL THE HTML IN ONE FILE BECAUSE HANDLEBARSJS ISNT WORKING - - - - -
+
+THIS IS THE INDEX.HTML FOR MY WEB PROJECTS
+
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Check out some of my projects!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- BOOTSTRAP -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- / BOOTSTRAP -->
+
+
+        <!-- Customized CSS -->
+        <link rel="stylesheet" href="../HaodasGotNewStyles.css">
+
+        <!-- Handlebars library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+
+        <!-- Dynamic Component Initialization -->
+        <script>
+            $(function() {
+                $("#modularnav").load("../NavBarAndJumbo.html");
+            });
+
+
+        </script>
+
+
+    </head>
+    <body>
+        <div id = "modularnav"></div>
+
+        <div class = "row">
+            <div class = "container"><center><h2>Haoda's Web Projects!</h2></center></div>
+        </div>
+        <div class ="container">
+        <div class = "row">
+            <div class = "col-sm-12">
+                <div class = "row">
+
+                    <!-- OLD
+                    <div class = "col-sm-4 panel panel-default panel-content"></div>
+                    <div class = "col-sm-8 panel panel-default">
+                        <div class = "panel-head"><h3><a href = "#">Leap the Wall!</a></h3></div>
+                        <div class = "panel-body">
+                            <p>
+                                Do you use Telegram and live in China and absolutely hate the Great Firewall? Well, why not send a message through our proxy-bot!
+                            </p>
+                        </div>
+                    </div>
+                  -->
+
+                  <!-- THIS IS MY BIG HUGE TEMPLATE -->
+                  <script id="handlebars" type="text/x-handlebars-template">
+                      <!-- Handlebars -->
+
+                      {{#each project}}
+                      <div class = "col-sm-4 panel-default panel-content pic">
+                          <!-- insert picture(s) here -->
+                          <img src = {{projectPic}}/>
+
+                      </div>
+
+                      <div class = "col-sm-8 panel-default words">
+                          <div class = "panel-header">
+                              <!-- insert header here -->
+                              {{projectName}}
+                          </div>
+                          <div class = "panel-body">
+                              <!-- insert body here -->
+                              {{projectDescription}}
+                              <br>
+                              <a href = {{projectReadMe}}>See the ReadMe!</a>
+                              <br>
+                              <a href = {{projectLink}}>Project Link!</a>
+                          </div>
+                      </div>
+                      {{/each}}
+
+                  </script>
+                  <div id = "allProjects"></div>
+                  <script src = "handle_it.js"></script>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

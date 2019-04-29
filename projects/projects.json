@@ -1,0 +1,39 @@
+{
+  "project" : [
+    {
+      "projectPic" : "../assets/badgario-splash.png",
+      "projectName" : "Badgario - A 💩 version of Agar.io",
+      "projectDescription" : "This project is the closest I have come to making a finished, playable game. I made it as a side project during my first work term (Fall 2017) as a way to learn the basics of game development. It plays exactly like Agar.io, the difference being that it is single player, and in order to win, you have to defeat a final boss. ",
+      "projectReadMe" : "https://github.com/haodafan/badgario",
+      "projectLink" : "https://github.com/haodafan/badgario"
+    },
+    {
+      "projectPic" : "../assets/vector-splash.png",
+      "projectName" : "Vector Playground - Visualize vectors in 3d space!",
+      "projectDescription" : "My grade 12 computer science final project. I, along with 3 other classmates (We called ourselves MagV Studios, haha), created an application using the Unity 3d Game Engine to visualize vectors in a 3 dimensional environment. We needed to cater our app to a specific client and his needs, which in this case, was our grade 12 Calculus teacher, Mr. Hyde. ",
+      "projectReadMe" : "https://github.com/haodafan/Vectors-Program",
+      "projectLink" : "https://github.com/haodafan/Vectors-Program"
+    },
+    {
+      "projectPic" : "leap.png",
+      "projectName" : "Leap the Wall",
+      "projectDescription" : "Do you use Telegram and live in China and absolutely hate the Great Firewall? Well, why not send a message through our proxy-bot!",
+      "projectReadMe" : "http://haodafan.com/bot_info/index.html",
+      "projectLink" : "http://haodafan.com/old/telememebot/index.html"
+    },
+    {
+      "projectPic" : "https://raw.githubusercontent.com/edwinfinch/lecturebuddy/master/frontend/biglecture.png",
+      "projectName" : "Lecture Buddy",
+      "projectDescription" : "Have real-time non-intrusive feedback directly from the audience! Won 2nd place at McHacks 2017 in McGill University.",
+      "projectReadMe" : "https://devpost.com/software/lecture-buddy",
+      "projectLink" : "https://github.com/edwinfinch/lecturebuddy"
+    },
+    {
+      "projectPic" : "newmeta.PNG",
+      "projectName" : "Haoda Fan Dot Com HD Remastered",
+      "projectDescription" : "Wish to know a bit more about me? Want to laugh at my self-deprecating jokes and see my amazing web development skills in action? Well come visit my website, which also happens to be this website. Whoa, this is kind of meta. ",
+      "projectReadMe" : "https://github.com/haodafan/haodafan.com-HD-Remastered/wiki/Website-Development",
+      "projectLink" : "http://haodafan.com"
+    }
+  ]
+}

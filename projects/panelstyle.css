@@ -1,0 +1,14 @@
+.panel-default {
+    border-style: solid;
+	border-color: #66023C;
+	border-width: 4px;
+}
+.panel-header {
+    background-color:#702963;
+    color: white;
+    font-size: 16px;
+}
+.panel-body {
+    background-color:whitesmoke;
+    color: black;
+}
