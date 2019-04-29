@@ -1,20 +1,31 @@
 {
   "project" : [
     {
-      "projectPic" : "../assets/badgario-splash.png",
+      "visible" : true,
+      "projectPic" : "./assets/injoker-splash.png",
+      "projectName" : "TIAN HUO!!!",
+      "projectDescription" : "TIANHUO is a 2 player game where the 2 players battle as wizards. Players may move around the map and try to hit the opponent with spells. Spells are invoked by entering a 'code' to dictate which spell is cast. Larger spells will cost more mana than smaller ones. Kinda based on Invoker from Dota2. <br> Created for Waterloo's Fall 2018 Game Jam with Leo Bao and Jeffrey Forhan.",
+      "projectReadMe" : "https://gitlab.com/leobao/tianhuo",
+      "projectLink" : "https://gitlab.com/leobao/tianhuo"
+    },
+    {
+      "visible" : false,
+      "projectPic" : "./assets/injoker-splash.png",
+      "projectName" : "Cozy Roads",
+      "projectDescription" : "Cozy Roads Description",
+      "projectReadMe" : "https://htn18-216503.firebaseapp.com/",
+      "projectLink" : "https://github.com/reneeleung/Cozy-Roads"
+    },
+    {
+      "visible" : true,
+      "projectPic" : "./assets/badgario-splash.png",
       "projectName" : "Badgario - A 💩 version of Agar.io",
       "projectDescription" : "This project is the closest I have come to making a finished, playable game. I made it as a side project during my first work term (Fall 2017) as a way to learn the basics of game development. It plays exactly like Agar.io, the difference being that it is single player, and in order to win, you have to defeat a final boss. ",
       "projectReadMe" : "https://github.com/haodafan/badgario",
       "projectLink" : "https://github.com/haodafan/badgario"
     },
     {
-      "projectPic" : "../assets/vector-splash.png",
-      "projectName" : "Vector Playground - Visualize vectors in 3d space!",
-      "projectDescription" : "My grade 12 computer science final project. I, along with 3 other classmates (We called ourselves MagV Studios, haha), created an application using the Unity 3d Game Engine to visualize vectors in a 3 dimensional environment. We needed to cater our app to a specific client and his needs, which in this case, was our grade 12 Calculus teacher, Mr. Hyde. ",
-      "projectReadMe" : "https://github.com/haodafan/Vectors-Program",
-      "projectLink" : "https://github.com/haodafan/Vectors-Program"
-    },
-    {
+      "visible" : false,
       "projectPic" : "leap.png",
       "projectName" : "Leap the Wall",
       "projectDescription" : "Do you use Telegram and live in China and absolutely hate the Great Firewall? Well, why not send a message through our proxy-bot!",
@@ -22,6 +33,7 @@
       "projectLink" : "http://haodafan.com/old/telememebot/index.html"
     },
     {
+      "visible" : true,
       "projectPic" : "https://raw.githubusercontent.com/edwinfinch/lecturebuddy/master/frontend/biglecture.png",
       "projectName" : "Lecture Buddy",
       "projectDescription" : "Have real-time non-intrusive feedback directly from the audience! Won 2nd place at McHacks 2017 in McGill University.",
@@ -29,6 +41,15 @@
       "projectLink" : "https://github.com/edwinfinch/lecturebuddy"
     },
     {
+      "visible" : true,
+      "projectPic" : "./assets/vector-splash.png",
+      "projectName" : "Vector Playground - Visualize vectors in 3d space!",
+      "projectDescription" : "My grade 12 computer science final project. I, along with 3 other classmates (We called ourselves MagV Studios, haha), created an application using the Unity 3d Game Engine to visualize vectors in a 3 dimensional environment. We needed to cater our app to a specific client and his needs, which in this case, was our grade 12 Calculus teacher, Mr. Hyde. ",
+      "projectReadMe" : "https://github.com/haodafan/Vectors-Program",
+      "projectLink" : "https://github.com/haodafan/Vectors-Program"
+    },
+    {
+      "visible" : false,
       "projectPic" : "newmeta.PNG",
       "projectName" : "Haoda Fan Dot Com HD Remastered",
       "projectDescription" : "Wish to know a bit more about me? Want to laugh at my self-deprecating jokes and see my amazing web development skills in action? Well come visit my website, which also happens to be this website. Whoa, this is kind of meta. ",

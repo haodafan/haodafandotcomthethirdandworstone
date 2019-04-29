@@ -1,14 +1,20 @@
-.panel-default {
+.project-container {
     border-style: solid;
-	border-color: #66023C;
-	border-width: 4px;
+    border-width: 4px; 
+    border-color: black;
+    margin: 3px;
+    padding: 5px;
 }
+
 .panel-header {
-    background-color:#702963;
-    color: white;
-    font-size: 16px;
+    font-size: 24px;
+    font-style: bold;
+
+    padding: 10px;
 }
 .panel-body {
     background-color:whitesmoke;
     color: black;
+
+    height:100%;
 }
