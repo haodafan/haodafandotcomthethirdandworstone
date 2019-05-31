@@ -1,0 +1,39 @@
+{
+    "comics" : [
+        {
+            "index" : "0",
+            "name" : "Your Six Crushes at Waterloo",
+            "explanation" : "",
+            "epilogue" : "",
+            "data" : "",
+            "tags" : 
+            [
+                "/r/uwaterloo", "6 types", "love", "tiffany", "andy"
+            ]
+        },
+        {
+            "index" : "1",
+            "name" : "Reddit Dating Advice",
+            "explanation" : "",
+            "epilogue" : "",
+            "data" : "",
+            "tags" : 
+            [
+                "/r/uwaterloo", "awkward asf", "love"
+            ]
+        },
+        {
+            "index" : "3",
+            "name" : "It's Super Duper Okay to be Chinese",
+            "type" : "/r/uwaterloo",
+            "explanation" : "",
+            "epilogue" : "",
+            "data" : "",
+            "tags" : 
+            [
+                "/r/uwaterloo", "aiya"
+            ]
+        }
+
+    ] 
+}

@@ -7,13 +7,29 @@ $(function() {
     console.log( "ready!" );
 
     // PLAY SONGS (not implemented)
-    var newSongChance = Math.Random(); 
+    var newSongChance = Math.random(); 
 
-	// Quote of the refresh (in development)
-	var quotes = $.getJSON("./other-data/quotes.json");
+	// Random meme 
+	//var memelist = $.getJSON("./other-data/memes.json");
+
+	// BUTTON FUNCTIONALITY
+	// MEME BUTTON
+	$("#meme-button").click(function () {
+		console.log("MEME BUTTON CLICKED");
+		
+		$.getJSON("./other-data/memes.json", function(data) {
+			var memeCount = data.list.length;
+			var memePick = Math.floor(Math.random() * memeCount);
+
+			window.open(data.list[memePick].link, data.list[memePick].title);
+		});
+
+	});
 });
 
-// PIC FLICKERING
+
+
+// PIC FLICKERING (in development)
 $(".flick").hover(function() {
 
 	// First, find out if the alternate pic exists 
