@@ -18,10 +18,10 @@ $(function() {
 		console.log("MEME BUTTON CLICKED");
 		
 		$.getJSON("./other-data/memes.json", function(data) {
-			var memeCount = data.list.length;
+			var memeCount = data.videos.length;
 			var memePick = Math.floor(Math.random() * memeCount);
 
-			window.open(data.list[memePick].link, data.list[memePick].title);
+			window.open(data.videos[memePick].link, data.videos[memePick].title);
 		});
 
 	});
