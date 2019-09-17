@@ -2,6 +2,22 @@
   "project" : [
     {
       "visible" : true,
+      "projectPic" : "./assets/bunkerboxer.png",
+      "projectName" : "Starcraft Brood War AI - BunkerBoxeR",
+      "projectDescription" : "A Bot which plays the classic real time strategy game Starcraft, which performs the 'bunker rush' strategy. BunkerBoxeRBot participated in the AIIDE Starcraft AI competition. Coded in C++ using the BWAPI library to interact with the game.",
+      "projectReadMe" : "https://github.com/haodafan/BWAPI-BunkerBoxerBot",
+      "projectLink" : "https://github.com/haodafan/BWAPI-BunkerBoxerBot"
+    },
+    {
+      "visible" : true,
+      "projectPic" : "./assets/gachoful.jpg",
+      "projectName" : "Gachoful Girlfriend",
+      "projectDescription" : "Gachoful Girlfriend is a goose dating simulator + rhythm game + bullet hell dodging game made in Unity. It's a normal dating sim until an 'intense social interaction' occurs, which then throws you into a rhythm + bullet dodging game, meant to metaphorically represent your anxiety. Dialog written by Eva Yeverovich and goose art by Annika Kjerulf.",
+      "projectReadMe" : "http://haoda.fan/gachofulgirlfriend/",
+      "projectLink" : "http://haoda.fan/gachofulgirlfriend/game/index.html"
+    },
+    {
+      "visible" : true,
       "projectPic" : "./assets/injoker-splash.png",
       "projectName" : "TIAN HUO!!!",
       "projectDescription" : "TIANHUO is a 2 player game where the 2 players battle as wizards. Players may move around the map and try to hit the opponent with spells. Spells are invoked by entering a 'code' to dictate which spell is cast. Larger spells will cost more mana than smaller ones. Kinda based on Invoker from Dota2. <br> Created for Waterloo's Fall 2018 Game Jam with Leo Bao and Jeffrey Forhan.",
