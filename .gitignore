@@ -1,0 +1,6 @@
+# Ignore these miscellenous things that exist in my directory for some reason
+virtual-bf
+pics/BronzeAgeCollapseTimeline
+
+# Ignore VS Code stuff
+.vscode
